@@ -12,11 +12,17 @@ const jsxheading = <h1 id="heading" className='heading' tabIndex='10'>Hello worl
 // console.log(heading) //heading is actually is a object
 console.log(jsxheading);
 
+const elem = <span>React Element</span>;
 
+///React element ## here pqr is nothing but javascript varible
 const pqr = (
+  <div>
   <h1 id="heading" className='heading' tabIndex='10'>
-    Hello world React from jsx
-  </h1>
+      Hello world React from jsx
+    </h1>
+    {elem}
+  </div>
+  
 ); ///if it is multi liner then wrap with braces as bibel understand where jsx start and where end
 
 ///javascript function
@@ -47,14 +53,23 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 const Title = () => (
   <div id='title'>This is title component</div>
 )
-
+const number = 10;
+// React fragment for wrapping two div container at root lavel
 const BodyComponent = () => {
   return(
-   
-    <div id="body"> 
-    <h1>This is body component</h1>
-    <Title />
-    </div>
+    <React.Fragment>
+      <div id="container1"> 
+        <h1>This is body component</h1>
+        <Title />
+        <h2>{ number }</h2>
+        {console.log("vinita Kumari")}
+        {/* we can call react element inside component */}
+        {pqr} 
+        {/* call component like this also */}
+        {HeadingComponent()}
+      </div>
+      <div id="container2">Hello React from second contailner</div> 
+    </React.Fragment>
   )
 };
 
