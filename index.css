@@ -1,3 +1,35 @@
-#heading {
-  color: red;
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid black;
+}
+
+.logo {
+  width: 100px;
+  padding: 4px 4px;
+}
+
+.nav-items {
+  padding: 4px 4px;
+}
+
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+  
+}
+
+.nav-items > ul > li {
+  padding: 5px;
+  margin: 5px;
+}
+
+.restro-card {
+  width: 200px;
+  height: 300px;
+  border: 1px solid black;
+}
+
+.search {
+  padding: 10px;
 }
