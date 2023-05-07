@@ -288,7 +288,7 @@ const restroList = [
         "iconType": "EMPTY"
       },
       "promoted": true,
-      "avgRating": "4.2",
+      "avgRating": "4.0",
       "totalRatings": 10000,
       "new": false
     }
@@ -435,7 +435,7 @@ const restroList = [
         "iconType": "EMPTY"
       },
       "promoted": true,
-      "avgRating": "4.2",
+      "avgRating": "3.8",
       "totalRatings": 10000,
       "new": false
     }
@@ -582,7 +582,7 @@ const restroList = [
         "iconType": "EMPTY"
       },
       "promoted": true,
-      "avgRating": "4.2",
+      "avgRating": "5.0",
       "totalRatings": 10000,
       "new": false
     }
@@ -729,7 +729,7 @@ const restroList = [
         "iconType": "EMPTY"
       },
       "promoted": true,
-      "avgRating": "4.2",
+      "avgRating": "3.6",
       "totalRatings": 10000,
       "new": false
     }
